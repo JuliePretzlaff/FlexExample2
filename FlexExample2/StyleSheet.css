@@ -1,0 +1,36 @@
+﻿.cards{
+    min-height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex: 0 0 250px;
+    align-items: flex-start;
+    justify-content: center;
+}
+img.img{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+
+}
+.card{
+    background-color: grey;
+    margin: 8px;
+    border:solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+}
+ul{
+    padding:0;
+}
+li{
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+button{
+    display: flex;
+    justify-content:center;
+    margin:0;
+}
